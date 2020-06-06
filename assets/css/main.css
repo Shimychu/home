@@ -2280,8 +2280,8 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
+			font-family: 'Font Awesome\ 5 Free';
+			font-weight: 900;
 		}
 
 		.icon > .label {
@@ -2297,7 +2297,8 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Font Awesome\ 5 Free';
+			font-weight: 900;
 		}
 
 		.icon.style1:before {
@@ -2341,8 +2342,8 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
-				font-weight: 400;
+				font-family: 'Font Awesome\ 5 Free';
+				font-weight: 900;
 			}
 
 			.icon.major:before {
@@ -2589,6 +2590,7 @@ input, select, textarea {
 			display: inline-block;
 			padding: 2.5em;
 			text-align: center;
+			width: 12em; 
 		}
 
 			ul.major-icons li .icon {
@@ -2826,7 +2828,7 @@ input, select, textarea {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
+			background-image: url("images/overlay1.png"), url("../../images/test.jpg");
 			background-size: auto,							cover;
 		}
 
@@ -2907,6 +2909,95 @@ input, select, textarea {
 			}
 
 			.main.style2 .icon.major {
+				color: #ffffff;
+			}
+
+			/* Main 3*/
+		.main.style3 {
+			background-color: #333;
+			color: rgba(255, 255, 255, 0.75);
+			background-attachment: fixed, fixed;
+			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
+			background-size: auto, cover;
+		}
+
+			.main.style3 a {
+				border-bottom-color: rgba(255, 255, 255, 0.5);
+			}
+
+				.main.style3 a:hover {
+					color: #ffffff;
+				}
+
+			.main.style3 h1, .main.style3 h2, .main.style3 h3, .main.style3 h4, .main.style3 h5, .main.style3 h6, .main.style3 strong, .main.style3 b {
+				color: #ffffff;
+			}
+
+			.main.style3 header p {
+				color: #ffffff;
+			}
+
+			.main.style3 header.major:after {
+				background: #ffffff;
+			}
+
+			.main.style3 input[type="submit"],
+			.main.style3 input[type="reset"],
+			.main.style3 input[type="button"],
+			.main.style3 button,
+			.main.style3 .button {
+				box-shadow: inset 0 0 0 1px #ffffff;
+				color: #ffffff !important;
+			}
+
+				.main.style3 input[type="submit"]:hover,
+				.main.style3 input[type="reset"]:hover,
+				.main.style3 input[type="button"]:hover,
+				.main.style3 button:hover,
+				.main.style3 .button:hover {
+					background-color: rgba(255, 255, 255, 0.125);
+				}
+
+				.main.style3 input[type="submit"]:active,
+				.main.style3 input[type="reset"]:active,
+				.main.style3 input[type="button"]:active,
+				.main.style3 button:active,
+				.main.style3 .button:active {
+					background-color: rgba(255, 255, 255, 0.25);
+				}
+
+				.main.style3 input[type="submit"].primary,
+				.main.style3 input[type="reset"].primary,
+				.main.style3 input[type="button"].primary,
+				.main.style3 button.primary,
+				.main.style3 .button.primary {
+					background-color: #ffffff;
+					box-shadow: inset 0 0 0 1px #ffffff !important;
+					color: #333 !important;
+				}
+
+					.main.style3 input[type="submit"].primary:hover,
+					.main.style3 input[type="reset"].primary:hover,
+					.main.style3 input[type="button"].primary:hover,
+					.main.style3 button.primary:hover,
+					.main.style3 .button.primary:hover {
+						background-color: rgba(255, 255, 255, 0.125) !important;
+						color: #ffffff !important;
+					}
+
+					.main.style3 input[type="submit"].primary:active,
+					.main.style3 input[type="reset"].primary:active,
+					.main.style3 input[type="button"].primary:active,
+					.main.style3 button.primary:active,
+					.main.style3 .button.primary:active {
+						background-color: rgba(255, 255, 255, 0.25) !important;
+					}
+
+			.main.style3 ul.major-icons li .icon {
+				border-color: #ffffff;
+			}
+
+			.main.style3 .icon.major {
 				color: #ffffff;
 			}
 
